@@ -86,9 +86,9 @@ img {
 }
 
 
-/* HERO / HOME */
+/* HOME */
 
-.hero {
+.home {
     min-height: 580px;
     position: relative;
     display: flex;
@@ -107,7 +107,7 @@ img {
     overflow: hidden;
 }
 
-.hero-image{
+.home-image{
     width: 300px;
     height: auto;
     object-fit: contain;
@@ -115,7 +115,7 @@ img {
     margin: 20px auto;
 }
 
-.hero-text {
+.home-text {
     max-width: 650px;
 }
 
@@ -127,30 +127,30 @@ img {
     margin-bottom: 15px;
 }
 
-.hero-text h1 {
+.home-text h1 {
     font-size: 48px;
     line-height: 1.2;
     margin-bottom: 15px;
 }
 
-.hero-text h1 span {
+.home-text h1 span {
     color: #8dcaff;
 }
 
-.hero-text h2 {
+.home-text h2 {
     font-size: 23px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.hero-description {
+.home-description {
     color: #e0efff;
     max-width: 560px;
     font-size: 15px;
     margin-bottom: 30px;
 }
 
-.hero-buttons {
+.home-buttons {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
@@ -188,7 +188,7 @@ img {
     color: var(--primary);
 }
 
-.hero-image {
+.home-image {
     width: 300px;
     height: 350px;
     flex-shrink: 0;
@@ -198,7 +198,7 @@ img {
     box-shadow: 0 15px 40px rgba(0,0,0,0.2);
 }
 
-.hero-image img {
+.home-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
